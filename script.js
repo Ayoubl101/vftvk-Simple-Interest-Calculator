@@ -7,10 +7,10 @@ function compute()
     var interest = principal * years * rate / 100;
     years = parseInt(years) + 2021;
     var result = document.getElementById("result");
-    result.innerHTML = `If you deposit ${principal},
-                        at an interest rate of ${rate}%.
-                        You will receive an amount of ${interest},
-                        in the year ${years}`;
+    result.innerHTML = `If you deposit <mark>${principal}</mark>,<br/>
+                        at an interest rate of <mark>${rate}%</mark>.<br/>
+                        You will receive an amount of <mark>${interest}</mark>,<br/>
+                        in the year <mark>${years}</mark>`;
     }
 }
 
